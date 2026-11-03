@@ -521,7 +521,7 @@ export default function PopularMedicalHero() {
       <div className="relative w-full flex flex-col items-center">
         
         {/* Responsive Image Container */}
-        <div className="relative w-full h-[260px] sm:h-[350px] lg:h-[620px]  overflow-hidden shadow-xl bg-gray-100">
+        <div className="relative w-full h-[460px] sm:h-[550px] lg:h-[760px]  overflow-hidden shadow-xl bg-gray-100">
           {slides.map((slide, index) => (
             <div
               key={slide.id}
